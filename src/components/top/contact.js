@@ -1,12 +1,19 @@
 import React from "react";
-import {Googleform} from './googleformContact'
+// import {Googleform} from './googleformContact'
 import "../../styles/top_style/contact.css"
+
+// const StyledTable='styled.table';
+// const TextArea = 'styled.textarea';
+// const Th = 'styled.th';
+// const StyledSubmit ='styled.button';
+
 
 const Contact = () => {
   return (
     <>
+{/*   
        <form>
-      <div className='StyledTable'>
+      <StyleTable className='StyledTable'>
         <tbody>
           <tr>
             <Th>
@@ -17,11 +24,11 @@ const Contact = () => {
             </td>
           </tr>
           <tr>
-            <Th>
+          <Th>
             <p>Email</p>
-            </Th>
+           </Th>
             <td> 
-              <div inputtype='text'} name={'email'} />
+              <div inputtype={'text'} name={'email'} />
             </td>
           </tr>
           <tr>
@@ -33,12 +40,12 @@ const Contact = () => {
             </td>
           </tr>
         </tbody>
-      </div>
-      <p>お問い合わせ内容</p>
+      </StyleTable>
+      <p>Contact</p>
       <TextArea name={'inquiry'} />
       <StyledSubmit type={'submit'}>送信する</StyledSubmit>
     </form>
-     
+      */}
     </>
   )
 }

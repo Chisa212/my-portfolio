@@ -4,7 +4,7 @@ import "../../styles/top_style/main.css"
 const Main = () => {
   return (
     <>
-      <p>main</p>
+      <p>↓</p>
     </>
   )
 }
