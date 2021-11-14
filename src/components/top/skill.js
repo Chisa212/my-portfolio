@@ -13,6 +13,7 @@ const Skill = () => {
     <>
       <div className="SkillMain">
         <p>Skill</p>
+        <div class="box" id="makeImg">
         <div className="adb1">
           <IconContext.Provider value={{ color: "#393665", size: "5vw" }}>
             <SiAdobeaftereffects />
@@ -43,6 +44,8 @@ const Skill = () => {
             <SiAdobedreamweaver />
           </IconContext.Provider>
         </div>
+        </div>
+        
       </div>
     </>
   );

@@ -3,7 +3,29 @@
   padding: 50px;
 }
 .adb1{
-  padding: 10px;
-  margin: 0 auto;
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#393665;              /* BOXの背景色         */
+  border         : 2px solid #35557f;    /* 枠線の指定          */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 5;
+  /* opacity: 20%; */
+}
+.box{
+  margin         :0 auto;                 /* サンプル用 中央寄せ */
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background     : #fff;                 /* BOXの背景色         */
+  border         : 1px solid #666;       /* 枠線の指定          */
+  width          : 70vw;                /* BOXの幅             */
+  max-height     : 210px;                /* BOXの高さ           */
+  animation: boxAnime 10s linear infinite alternate;
+
+  /* ▼ FlexBoxの定義 */
+  display        : flex;                 /* FlexBox定義         */
+  flex-wrap      : wrap;                 /* 折り返し定義        */
+
 
 }
