@@ -8,7 +8,7 @@ import "../styles/layout.css"
 
 const Layout = () => {
   return (
-    <div className ="main-Layout">
+    <div className ="main-Layout" >
       <Home />
       <Main />
       <Skill />

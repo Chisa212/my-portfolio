@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Layout from "../components/layout";
 
 class Firstpage extends React.Component {

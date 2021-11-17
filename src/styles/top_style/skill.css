@@ -1,28 +1,152 @@
 .SkillMain{
   background-color: rgb(228, 220, 214);
-  padding: 50px;
+  margin:0 auto;
+  /* padding: 50px; */
 }
 .adb1{
   box-sizing     : border-box;           /* 罫線も含む長さ      */
-  background-color     :#393665;              /* BOXの背景色         */
-  border         : 2px solid #35557f;    /* 枠線の指定          */
+  background-color     :#CF96FD ;              /* BOXの背景色         */
   width          : 10vw;                 /* サンプルBOXの幅     */
   height         : auto;                 /* サンプルBOXの幅     */
   padding : 2vw; 
   margin: 2vw;                 /* サンプルBOXの間     */
   border-radius: 50%;
-  z-index: 5;
+  z-index: 1;
+}
+
+.adb2{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#FF9A00;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
   /* opacity: 20%; */
 }
+.adb3{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#31A8FF;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+
+.adb4{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#FF61F6 ;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.adb5{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#e6eaec;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.adb6{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#4BBABC;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.pr1{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#ED662F ;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2.5vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+}
+.pr2{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#3C9CD8 ;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2.5vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.pr3{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#E6B82C;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2.5vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.pr4{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#00D8FE;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2.5vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.pr5{
+  box-sizing     : border-box;           /* 罫線も含む長さ      */
+  background-color     :#649AD2;              /* BOXの背景色         */
+  width          : 10vw;                 /* サンプルBOXの幅     */
+  height         : auto;                 /* サンプルBOXの幅     */
+  padding : 2vw; 
+  margin: 2vw;                 /* サンプルBOXの間     */
+  border-radius: 50%;
+  z-index: 1;
+  /* opacity: 20%; */
+}
+.Cgengo{
+  max-width: 100%;
+  width:8vw;
+  height: auto;
+
+}
+.Maya{
+  max-width: 100%;
+  width:5vw;
+  height: auto;
+
+}
+
+
 .box{
   margin         :0 auto;                 /* サンプル用 中央寄せ */
   box-sizing     : border-box;           /* 罫線も含む長さ      */
   background     : #fff;                 /* BOXの背景色         */
   border         : 1px solid #666;       /* 枠線の指定          */
-  width          : 70vw;                /* BOXの幅             */
+  width          : 90vw;                /* BOXの幅             */
   max-height     : 210px;                /* BOXの高さ           */
   animation: boxAnime 10s linear infinite alternate;
-
+  justify-content: center;
   /* ▼ FlexBoxの定義 */
   display        : flex;                 /* FlexBox定義         */
   flex-wrap      : wrap;                 /* 折り返し定義        */

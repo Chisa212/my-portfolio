@@ -10,10 +10,10 @@ const Header = () => {
                 <h1>page1</h1>
                 </Link> */}
                 <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Skill</a></li>
-                <li><a href="#">Works</a></li>
+                <li><a href="#tp">Home</a></li>
+                <li><a href="#Mn">About</a></li>
+                <li><a href="#sl">Skill</a></li>
+                <li><a href="#wr">Works</a></li>
                 <li><a href="#">Contact</a></li>
                 </ul>
                

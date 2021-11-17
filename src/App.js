@@ -7,26 +7,31 @@ import React from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import "./styles/App.css"
 import { render } from '@testing-library/react';
+import "./styles/reset.css"
 
 class App extends React.Component {
   render() {
     return (
       <>
-        <BrowserRouter>
+
+      <div id="tp">
+      <BrowserRouter>
           <Header />
-            <div className="App">
+            <div className="App" >
               <Firstpage/>
-              {/* <Switch>
+              <Switch>
                 <Route exact path = "/">
                   <Firstpage/>
                   </Route>
                 <Route path = "/page1">
                   <Work1 />
                   </Route>
-              </Switch> */}
+              </Switch>
             </div>
           <Footer />
         </BrowserRouter>
+      </div>
+        
       </>
     );
   }
