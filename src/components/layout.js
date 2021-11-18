@@ -1,21 +1,36 @@
-import React from "react"
-import Home from './top/home.js'
-import Main from './top/main.js'
-import Skill from './top/skill.js'
-import Works from './top/works.js'
-import Contact from './top/contact.js'
-import "../styles/layout.css"
+import React from "react";
+import Home from "./top/home.js";
+import Main from "./top/main.js";
+import Skill from "./top/skill.js";
+import Works from "./top/works.js";
+import Contact from "./top/contact.js";
+import "../styles/layout.css";
+import Post from "./wrk/mv/post.js";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Layout = () => {
   return (
-    <div className ="main-Layout" >
-      <Home />
-      <Main />
-      <Skill />
-      <Works />
-      <Contact />
-    </div>
-  )
-}
+    <Router>
+      <div className="main-Layout">
+        <Switch>
+          <Route path="/wr1_yugu">
+            <Home />
+          </Route>
+          <Route path="/post">
+            <Post title="props"/>
+          </Route>
+          <Route exact path="/">
+            <Home />
+            <Main />
+            <Skill />
+            <Works />
+          </Route>
+        </Switch>
 
-export default Layout
+        <Contact />
+      </div>
+    </Router>
+  );
+};
+
+export default Layout;

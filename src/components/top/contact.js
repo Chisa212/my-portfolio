@@ -11,6 +11,7 @@ import "../../styles/top_style/contact.css"
 const Contact = () => {
   return (
     <>
+  {/* <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaB9Nt2pdWD4MNtKFh519nCCh8HBUQu1xt0H5PMH1QrvCkRA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe> */}
 {/*   
        <form>
       <StyleTable className='StyledTable'>

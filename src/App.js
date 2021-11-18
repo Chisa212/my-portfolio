@@ -8,26 +8,16 @@ import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import "./styles/App.css"
 import { render } from '@testing-library/react';
 import "./styles/reset.css"
+import Layout from './components/layout.js';
 
 class App extends React.Component {
   render() {
     return (
       <>
-
       <div id="tp">
       <BrowserRouter>
           <Header />
-            <div className="App" >
-              <Firstpage/>
-              <Switch>
-                <Route exact path = "/">
-                  <Firstpage/>
-                  </Route>
-                <Route path = "/page1">
-                  <Work1 />
-                  </Route>
-              </Switch>
-            </div>
+            <Layout /> 
           <Footer />
         </BrowserRouter>
       </div>

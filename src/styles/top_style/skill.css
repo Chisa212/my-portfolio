@@ -1,7 +1,8 @@
 .SkillMain{
-  background-color: rgb(228, 220, 214);
+  background-color: #fff;
+  /* background-color: rgb(228, 220, 214); */
   margin:0 auto;
-  /* padding: 50px; */
+  padding-bottom: 50px;
 }
 .adb1{
   box-sizing     : border-box;           /* 罫線も含む長さ      */
@@ -141,8 +142,9 @@
 .box{
   margin         :0 auto;                 /* サンプル用 中央寄せ */
   box-sizing     : border-box;           /* 罫線も含む長さ      */
-  background     : #fff;                 /* BOXの背景色         */
-  border         : 1px solid #666;       /* 枠線の指定          */
+  /* background     : #fff;  */
+                  /* BOXの背景色         */
+      /* 枠線の指定          */
   width          : 90vw;                /* BOXの幅             */
   max-height     : 210px;                /* BOXの高さ           */
   animation: boxAnime 10s linear infinite alternate;
