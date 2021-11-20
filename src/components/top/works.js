@@ -95,7 +95,7 @@ class Works extends React.Component {
                 <ul className="card">
                   {data.map((value) => (
                     <li>
-                      <Link to="/post">
+                      <Link to="/works/">
                         <div className="hover">
                           <div className="hover-img">
                             <img
