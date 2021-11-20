@@ -6,6 +6,8 @@ import Works from "./top/works.js";
 import Contact from "./top/contact.js";
 import "../styles/layout.css";
 import Post from "./wrk/mv/post.js";
+import Header from '../components/header';
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Layout = () => {
@@ -13,13 +15,11 @@ const Layout = () => {
     <Router>
       <div className="main-Layout">
         <Switch>
-          <Route path="/wr1_yugu">
-            <Home />
-          </Route>
           <Route path="/post">
             <Post title="props"/>
           </Route>
           <Route exact path="/">
+            <Header/>
             <Home />
             <Main />
             <Skill />

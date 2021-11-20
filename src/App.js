@@ -9,6 +9,7 @@ import "./styles/App.css"
 import { render } from '@testing-library/react';
 import "./styles/reset.css"
 import Layout from './components/layout.js';
+// import NotFound from "../src/NotFound.js";
 
 class App extends React.Component {
   render() {
@@ -16,10 +17,10 @@ class App extends React.Component {
       <>
       <div id="tp">
       <BrowserRouter>
-          <Header />
             <Layout /> 
           <Footer />
         </BrowserRouter>
+       
       </div>
         
       </>
