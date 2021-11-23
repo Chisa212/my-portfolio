@@ -58,6 +58,7 @@
   margin: 2vw;                 /* サンプルBOXの間     */
   border-radius: 50%;
   z-index: 1;
+  pointer-events: none;
   /* opacity: 20%; */
 }
 .adb6{
@@ -69,6 +70,7 @@
   margin: 2vw;                 /* サンプルBOXの間     */
   border-radius: 50%;
   z-index: 1;
+  
   /* opacity: 20%; */
 }
 .pr1{
@@ -123,18 +125,21 @@
   margin: 2vw;                 /* サンプルBOXの間     */
   border-radius: 50%;
   z-index: 1;
+  
   /* opacity: 20%; */
 }
 .Cgengo{
   max-width: 100%;
   width:8vw;
   height: auto;
+  pointer-events: none;
 
 }
 .Maya{
   max-width: 100%;
   width:5vw;
   height: auto;
+  pointer-events: none;
 
 }
 

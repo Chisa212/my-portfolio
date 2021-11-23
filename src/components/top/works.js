@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { withRouter } from 'react-router-dom';
-import Wr1_yugu from "../wrk/mv/post";
+import Wr1_yugu from "../post";
 import { Link } from "react-router-dom";
 import "../../styles/top_style/works.css";
 import Movie1 from "../../img/works/yugu/yugu_port.png";
@@ -15,37 +15,71 @@ import Cont1 from "../../img/works/prkouza/IMG_4669.jpg";
 import Cont2 from "../../img/works/smhkouza/IMG_1789.JPG";
 
 class Works extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      img: "",
+      date: "",
+      loca:"",
+      longtext:"",
+      iconimg:"",
+      skillname:"",
+      link:"",
+      
+    };
+  }
+
   render() {
     const data = [
       {
-        name: "movie1",
-        srcname: Movie1,
-        text: "ユグドラシル",
-        altname: "2019.11.9",
+      name: "movie1",
+      srcname: Movie1,
+      text: "ユグドラシル",
+      altname: "2019.11.9",
+      loca:"長久手文化の家、森のホール",
+      longtext:"ダンスとプロジェクションマッピングの公演「ユグドラシル」のオープニング映像を制作しました。 公演名であるユグドラシルを主体とした独創的な世界を繰り広げ、 暗闇にでも映えるモノクロカラーにしました。",
+      iconimg:"", 
+      skillname:"Aftereffects,Illustarator,Photoshop",
+      
       },
       {
         name: "movie2",
         srcname: Movie2,
         text: "日本聴能言語福祉学院 ",
         altname: "2020.7.4",
+        longtext:"専門学校日本聴能言語福祉学院聴能言語学科の紹介PVを制作しました。映像素材が写真のみだったのでどのように動画にしていくか試行錯誤しながら学生生活の楽しさと学科の説明をわかりやすくしました。",
+        iconimg:"", 
+  　　　　skillname:"Aftereffects,Illustarator,Photoshop",
       },
       {
         name: "movie3",
         srcname: Movie3,
         text: "Fish Animation",
         altname: "2020.7.22",
+        longtext:"魚の動きやカメラを音楽に合わせ制作しました。モデリング,テクスチャ,編集といろんな技術を学ぶことができました。",
+        iconimg:"", 
+  　　　　skillname:"MAYA,Aftereffects,Photoshop",
       },
       {
         name: "movie4",
         srcname: Movie1,
         text: "福岡市第三給食センター",
-        altname: "給食センター",
+        altname: "2021.3.20",
+        longtext:"給食センター内で上映される施設紹介映像を制作しました。",
+        iconimg:"", 
+  　　　　skillname:"MAYA,Aftereffects,Photoshop",
       },
       {
         name: "movie5",
         srcname: Movie5,
         text: "The Tempest",
         altname: "2021.10.22~24",
+        loca:"名古屋市青少年文化センター　アートピアホール",
+      longtext:"演者とプロジェクションマッピングの公演の映像を制作しました。 台本をもとにざさ",
+      iconimg:"", 
+      skillname:"Aftereffects,Illustarator,Photoshop",
       },
       {
         name: "movie6",
@@ -95,7 +129,7 @@ class Works extends React.Component {
                 <ul className="card">
                   {data.map((value) => (
                     <li>
-                      <Link to={"post/" + value.name} >
+                      <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname,img:value.srcname, loca:value.loca,longtext:value.longtext,skillname:value.skillname}}}  >
                         <div className="hover">
                           <div className="hover-img">
                             <img
