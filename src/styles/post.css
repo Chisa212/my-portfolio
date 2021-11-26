@@ -1,18 +1,20 @@
 h1 {
-  border-bottom: solid 3px #cce4ff;
+  border-bottom: solid 3px #e9cd82;
   position: relative;
   font-size: 30px;
-  @media screen(max-width:756px) {
+}
+@media only screen and (min-width: 556px) {
+  h1{
     font-size: 20px;
   }
-
 }
+
 
 h1:after {
   position: absolute;
   content: " ";
   display: block;
-  border-bottom: solid 3px #5472cd;
+  border-bottom: solid 3px #7f320b;
   bottom: -3px;
   width: 30%;
 }
@@ -24,17 +26,49 @@ h1:after {
   margin-right: auto;
   }
   .skilltitle{
-    margin:auto;
+    margin: 10px;
   }
   .ex{
     width: 60%;
     text-align: center;
-    color: #364e96;/*文字色*/
-    border: solid 3px #364e96;/*線色*/
-    padding: 0.5em;/*文字周りの余白*/
-    border-radius: 0.5em;/*角丸*/
+    color: #2a2a26;
+  
+    padding: 0.5em;
+    border-radius: 0.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 1rem;
+   letter-spacing: 0.25em;
 
+  }
+
+  .btn-circle-stitch {
+    display: inline-block;
+    text-decoration: none;
+    background: #84663d;
+    color: #FFF;
+    width: 30px;
+    height: 20px;
+    line-height: 30px;
+    border-radius: 30% 40% 50% 30%/50% 50% 40% 40%;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 0px 5px #84663d;
+    border: dashed 1px #FFF;
+    transition: .4s;
+    margin-top:20px;
+    padding: 3px 3px 6px 3px;
+  };
+  
+  .btn-circle-stitch:hover {
+    background: #6c6b6a;
+    box-shadow: 40px 0px 0px 60px #6c6b6a;
+  }
+  img{
+    width: 50%;
+  }
+
+  .small{
+    margin-top: 10px;
   }

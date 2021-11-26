@@ -10,7 +10,8 @@ import "../../styles/top_style/contact.css";
 const Contact = () => {
   return (
     <>
-      <form>
+    {/* <h3>Contact</h3> */}
+      {/* <form>
         <label>
           Name:
           <input type="text" name="Name" />
@@ -28,7 +29,7 @@ const Contact = () => {
           <input type="text area" name="Messages" />
         </label>
         <input type="submit" value="送信" />
-      </form>
+      </form> */}
     </>
   );
 };

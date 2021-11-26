@@ -11,27 +11,39 @@ import Web1 from "../img/works/allcrean/allcrean_port.png";
 import Game1 from "../img/works/Gamepr/gamepr.png";
 import Cont1 from "../img/works/prkouza/IMG_4669.jpg";
 import Cont2 from "../img/works/smhkouza/IMG_1789.JPG";
+import {RiArrowLeftSFill} from "react-icons/ri";
 
 
 const Post = () => {
   const location = useLocation();
+
+  const srcItems = [
+    Movie1,
+    Movie2,
+    Movie3,
+    Movie5,
+    Movie6
+  ];
+
   return (
     <>
       <div className="title">
       <h1>{(location.state.name)}</h1>
       </div>
-       <img src={(location.state.srcname)}/>
+      {/* <img src={Movie1}/> */}
+       <img  className={(location.state.name)}src={srcItems[(location.state.imgId - 1)]}/>
        <p　className="small">{(location.state.date)}</p>
-       <p>{(location.state.loca)}</p>
+       <p className="small">{(location.state.loca)}</p>
        <p className="ex">{(location.state.longtext)}</p>
        <p id="skilltitle">使用スキル</p>
-       <img src={(location.state.iconimg)}/>
-       <p>{(location.state.skillname)}</p>
+       {/* <img src={(location.state.iconimg)}/> */}
+       <p className="small">{(location.state.skillname)}</p>
   
 
       <Link to="/">
-        <button>戻る</button>
+      <a href="#" class="btn-circle-stitch"><RiArrowLeftSFill/></a>
       </Link>
+     
     </>
   );
 };

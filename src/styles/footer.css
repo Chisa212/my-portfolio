@@ -2,6 +2,20 @@ footer {
   font-size: 20px;
   text-align: center;
   background-color: rgb(250, 239, 226);
-  margin: 0 auto;
-  padding: 50px;
+  /* margin: 0 auto; */
+  padding: 30px;
+  width:100%;
+  box-sizing: border-box;
+  min-width:320px;
+
+  /* height: 60px; */
+  position: absolute;/*←絶対位置*/
+  bottom: 0; /*下に固定*/
+
 }
+@media screen and (min-width:1024px) {
+  footer{
+    padding: 20px;
+  }
+}
+

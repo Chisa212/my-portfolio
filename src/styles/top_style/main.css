@@ -1,3 +1,61 @@
 .MainAll{
-  background-color: cadetblue;
+  background-color: bisque;
+}
+
+
+h2{
+  color: #563b20;/*文字色*/
+  /*線の種類（点線）2px 線色*/
+  border-bottom: dashed 2px #3e2914;
+  width: 20%;
+  /* display: block; */
+  margin: auto;
+  padding: auto;
+  
+}
+.jikoshokai{
+  width: 80vw;
+  margin:0 auto;
+  line-height: 1.5rem;
+  /* border: solid 3px #6091d3; */
+  display: flex;
+
+  /* display: block; */
+	
+}
+.jikoshokai p{
+  text-align: left;
+  letter-spacing: 0.15em;
+  padding: 10px;
+}
+.nm{
+  position: relative;
+   /* display: block; */
+    padding: 30px 0 0 0;
+    font-size: 2em;
+    /* font-weight: bold; */
+ 
+}
+.nm p{
+  letter-spacing: 0.12em;
+  padding: 0px 0px 10px 10px;
+}
+
+@media only screen and (min-width: 756px) {
+
+.abt{
+ 
+  display: flex;
+  justify-content: center;
+} 
+}
+.schoolname{
+  font-size: 0.2rem;
+  letter-spacing: 0.12em;
+}
+.enname{
+  font-size: 1rem;
+  font-weight: bold;
+  margin:0 auto;
+
 }

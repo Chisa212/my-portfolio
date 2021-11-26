@@ -40,9 +40,11 @@
 
 .card img{
   /* padding: 10px; */
-  width: 30vw;
+  width: 35vw;
   height: 100%;
   vertical-align: top;
+  /* border-radius: 30% 40% 40% 0%/50% 50% 60% 50%; */
+
 }
 
 
@@ -56,13 +58,13 @@
   padding: 0;
 }
 .hover-img img {
-  width: 30vw;
+  width: 35vw;
   height: 100%;
 }
 
 .hover .hover-text {
   position: absolute;
-  width: 30vw;
+  width: 35vw;
   height: 100%;
   top: 0px;
   left: 0px;
@@ -72,6 +74,7 @@
   opacity: 0;
   /*ホバーの動き方*/
   transition: .3s ease-in-out;
+  /* border-radius: 30% 40% 50% 50%/50% 50% 40% 40%; */
 }
 .hover .hover-text .text1 {
   font-size: 2.5vw;
@@ -83,3 +86,20 @@
   /*不透明にして表示*/
   opacity: 1;
 }
+/* .circle-2 {
+  width: 35vw;
+  height: 100%;
+  background: #f92;
+  border-radius: 80% 30% 50% 50%/50%;
+  animation: border-animation 4s infinite linear;
+  mix-blend-mode: multiply;
+}
+.circle-3 {
+  background: #fc2;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+  animation: border-animation 3s infinite linear;
+   mix-blend-mode: multiply;
+}
+@keyframes border-animation {
+  to { transform: rotate(360deg); }
+} */
