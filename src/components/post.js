@@ -13,7 +13,7 @@ import Movie6 from "../img/works/kojin/kojin1.png";
  import Web2 from"../img/works/my portfolio/my1.png"
  import Game1 from "../img/works/Gamepr/gamepr.jpg";
 import Cont1 from "../img/works/prkouza/IMG_4650.jpg";
-import Cont2 from "../img/works/smhkouza/IMG_1789.jpg";
+// import Cont2 from "../img/works/smhkouza/IMG_1789.jpg";
 import {RiArrowLeftSFill} from "react-icons/ri";
 
 
@@ -31,7 +31,7 @@ const Post = () => {
     Web2,
     Game1,
     Cont1,
-    Cont2
+    Cont1
   ];
 
 
