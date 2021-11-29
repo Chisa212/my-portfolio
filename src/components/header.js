@@ -6,7 +6,6 @@ const Header = () => {
     <header>
       <div className="main-header">
         <ul>
-          {" "}
           <li className="hd">
             <p>
               <a href="#tp">Home</a>
@@ -29,7 +28,7 @@ const Header = () => {
           </li>
           <li className="hd">
             <p>
-              <a href="#">Contact</a>
+              Contact
             </p>
           </li>
         </ul>
