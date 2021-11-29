@@ -40,7 +40,7 @@ const Post = () => {
       <div className="title">
       <h1>{(location.state.name)}</h1>
       </div>
-       <img  className={(location.state.name)}src={srcItems1[(location.state.imgId - 1)]}/>
+       <img className={(location.state.name)} src={srcItems1[(location.state.imgId - 1)]} />
        <p　className="small">{(location.state.date)}</p>
        <p className="small">{(location.state.loca)}</p>
        <p className="ex">{(location.state.longtext)}</p>

@@ -1,7 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import { withRouter } from 'react-router-dom';
-import Wr1_yugu from "../post";
 import { Link } from "react-router-dom";
 import "../../styles/top_style/works.css";
 import Movie1 from "../../img/works/yugu/yugu_port.png";
@@ -98,7 +96,6 @@ class Works extends React.Component {
         iconimg:"", 
         skillname:"Aftereffects,Illustarator,Photoshop",
       },
-      ,
     ];
     const data2 = [
       {
@@ -121,7 +118,6 @@ class Works extends React.Component {
          iconimg:"", 
          skillname:"HTML,css,Javascript,React,Illustarator,Photoshop",
        },
-      ,
     ];
     const data3 = [
       {
@@ -134,7 +130,6 @@ class Works extends React.Component {
         iconimg:"", 
         skillname:"Unity,Illustarator,Photoshop",
       },
-      ,
     ];
     const data4 = [
       { id:10,
@@ -145,7 +140,6 @@ class Works extends React.Component {
         longtext:"中学校でのプログラミングの授業が必修化されました。小学校高学年、保護者の為のプログラミング講座に参加し、受講者と1対1で丁寧に教えた。",
         iconimg:"", 
         skillname:"Python",
-       
       },
       { id:11,
         name: "cont2",
@@ -155,11 +149,9 @@ class Works extends React.Component {
          longtext:"スマホについて、不安や難しさを感じる初心者向けの講座。自分の好みの設定や一歩進んだに役立つスマホの使い方、困った時の対処法などを丁寧に教えます。",
         iconimg:"", 
         skillname:"コミュニケーション力",
-       
-
          },
-      ,
     ];
+    
     return (
       <>
         <div id="wr">

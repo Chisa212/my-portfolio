@@ -3,7 +3,7 @@ import "../../styles/top_style/home.css"
 import Homeimg1 from '../../img/Home/IMG_9431.jpg'
 const Home = () => {
   return (
-    <> <img className="Homeimg1" src={Homeimg1} alt="my picture"/>
+    <> <img className="Homeimg1" src={Homeimg1} alt="photo"/>
       {/* <p className="home-text">home</p> */}
      
       
