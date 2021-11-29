@@ -1,5 +1,5 @@
 .MainAll{
-  background-color: bisque;
+  background-color: rgb(243, 233, 221);
 }
 
 
@@ -19,6 +19,7 @@ h2{
   line-height: 1.5rem;
   /* border: solid 3px #6091d3; */
   display: flex;
+  padding: 10px;
 
   /* display: block; */
 	

@@ -9,6 +9,21 @@
   /* padding: 30px; */
   background-color: #fff;
 }
+h2{
+  color: #563b20;/*文字色*/
+  /*線の種類（点線）2px 線色*/
+  border-bottom: dashed 2px #3e2914;
+  width: 20%;
+  /* display: block; */
+  margin: auto;
+  padding: auto;
+}
+.komidashi:first-letter{
+  font-size: 2em;
+  font-weight: bold;
+  color: #612681;
+
+}
 
 
 @media not all and (min-width: 768px) {

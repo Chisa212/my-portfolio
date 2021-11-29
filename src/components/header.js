@@ -6,16 +6,23 @@ const Header = () => {
     return(
         <header>
             <div className = "main-header">
-                {/* <Link to = "/page1">
-                <h1>page1</h1>
-                </Link> */}
-                <ul>
-                <li><a href="#tp">Home</a></li>
-                <li><a href="#Mn">About</a></li>
-                <li><a href="#sl">Skill</a></li>
-                <li><a href="#wr">Works</a></li>
-                <li><a href="#">Contact</a></li>
+   
+                <ul> <li className="hd">
+                    <p><a href="#tp">Home</a></p>
+                   </li>
+                <li className="hd">
+                <p><a href="#Mn">About</a></p>
+                </li>
+               <li className="hd">
+               <p><a href="#sl">Skill</a></p></li>
+                <li className="hd">
+                     <p><a href="#wr">Works</a></p></li>
+              <li className="hd">
+              <p> <a href="#">Contact</a></p></li>
                 </ul>
+                
+
+
                
                 
             </div>

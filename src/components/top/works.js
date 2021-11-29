@@ -7,12 +7,14 @@ import "../../styles/top_style/works.css";
 import Movie1 from "../../img/works/yugu/yugu_port.png";
 import Movie2 from "../../img/works/pv/pv1.png";
 import Movie3 from "../../img/works/maya/maya.png";
+import Movie4 from"../../img/works/kyushoku/kyushoku.png";
 import Movie5 from "../../img/works/tempest/tempest_port.png";
 import Movie6 from "../../img/works/kojin/kojin1.png";
 import Web1 from "../../img/works/allcrean/allcrean_port.png";
-import Game1 from "../../img/works/Gamepr/gamepr.png";
-import Cont1 from "../../img/works/prkouza/IMG_4669.jpg";
-import Cont2 from "../../img/works/smhkouza/IMG_1789.JPG";
+import Web2 from"../../img/works/my portfolio/my1.png"
+import Game1 from "../../img/works/Gamepr/gamepr.jpg";
+import Cont1 from "../../img/works/prkouza/IMG_4650.jpg";
+import Cont2 from "../../img/works/smhkouza/IMG_1789.jpg";
 
 class Works extends React.Component {
 
@@ -68,7 +70,7 @@ class Works extends React.Component {
       {
         id: 4,
         name: "movie4",
-        srcname: Movie1,
+        srcname: Movie4,
         text: "福岡市第三給食センター",
         altname: "2021.3.20",
         longtext:"給食センター内で上映される施設紹介映像を制作しました。",
@@ -100,6 +102,7 @@ class Works extends React.Component {
     ];
     const data2 = [
       {
+        id:7,
         name: "web1",
         srcname: Web1,
         text: "ALL CLEAN HYPER",
@@ -108,8 +111,10 @@ class Works extends React.Component {
         iconimg:"", 
         skillname:"Dreamweaver,HTML,css,Javascript,Illustarator,Photoshop",
       },
-      { name: "web2",
-       srcname: Web1,
+      { 
+        id:8,
+        name: "web2",
+       srcname: Web2,
         text: "My Portfolio",
          altname: "2021.11.30",
          longtext:"自分の個性を出すデザインかつわかりやすく見やすさを心がけた。",
@@ -120,6 +125,7 @@ class Works extends React.Component {
     ];
     const data3 = [
       {
+        id:9,
         name: "game1",
         srcname: Game1,
         text: "ジグゾーパズル",
@@ -131,21 +137,24 @@ class Works extends React.Component {
       ,
     ];
     const data4 = [
-      {
+      { id:10,
         name: "cont1",
         srcname: Cont1,
         text: "プログラミング教室",
         altname: "2020.12.12",
-        longtext:" 初心者向けのプログラミング講座に参加し、一般の方に1対1で丁寧に教えた。",
+        longtext:"中学校でのプログラミングの授業が必修化されました。小学校高学年、保護者の為のプログラミング講座に参加し、受講者と1対1で丁寧に教えた。",
         iconimg:"", 
+        skillname:"Python",
        
       },
-      { name: "cont2",
+      { id:11,
+        name: "cont2",
        srcname: Cont2,
         text: "スマホ講座",
          altname: "2021.4.24",
-         longtext:"高齢者向けの",
+         longtext:"スマホについて、不安や難しさを感じる初心者向けの講座。自分の好みの設定や一歩進んだに役立つスマホの使い方、困った時の対処法などを丁寧に教えます。",
         iconimg:"", 
+        skillname:"コミュニケーション力",
        
 
          },
@@ -154,8 +163,8 @@ class Works extends React.Component {
     return (
       <>
         <div id="wr">
-          <p>works</p>
-          <p>movie</p>
+          <h2>Works</h2>
+          <p className="komidashi">movie</p>
           <div class="wrap">
             <div class="item">
               {
@@ -171,8 +180,7 @@ class Works extends React.Component {
                               alt={value.altname}
                             />
                           </div>
-                          <div className="circle3"></div>
-                          <div className="circle2"></div>
+                   
 
                           <div class="hover-text">
                             <p class="text1">{value.text}</p>
@@ -188,14 +196,14 @@ class Works extends React.Component {
             </div>
           </div>
   
-          <p>Web</p>
+          <p className="komidashi">Web</p>
           <div class="wrap">
             <div class="item">
               {
                 <ul className="card">
                   {data2.map((value) => (
                     <li>
-                        <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname,img:value.srcname, loca:value.loca,longtext:value.longtext,skillname:value.skillname}}}  >
+                     <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname, imgId: value.id, loca:value.loca,longtext:value.longtext,skillname:value.skillname}}}  >
                       <div className="hover">
                         <div className="hover-img">
                           <img
@@ -218,14 +226,14 @@ class Works extends React.Component {
             </div>
           </div>
   
-          <p>Game</p>
+          <h3>Game</h3>
           <div class="wrap">
             <div class="item">
               {
                 <ul className="card">
                   {data3.map((value) => (
                     <li>
-                                              <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname,img:value.srcname, loca:value.loca,longtext:value.longtext,skillname:value.skillname}}}  >
+                    <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname, imgId: value.id, loca:value.loca,longtext:value.longtext,skillname:value.skillname}}}  >
 
                       <div className="hover">
                         <div className="hover-img">
@@ -249,14 +257,14 @@ class Works extends React.Component {
             </div>
           </div>
   
-          <p>Contribution to the community</p>
+          <h3>Contribution to the community</h3>
           <div class="wrap">
             <div class="item">
               {
                 <ul className="card">
                   {data4.map((value) => (
                     <li>
-                      <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname,img:value.srcname, loca:value.loca,longtext:value.longtext}}}  >
+                    <Link to={{pathname: '/post' , state: { name: value.text ,date: value.altname, imgId: value.id, loca:value.loca,longtext:value.longtext,skillname:value.skillname}}}  >
 
                       <div className="hover">
                         <div className="hover-img">

@@ -1,7 +1,12 @@
+*{
+  padding:0;
+  margin:0;
+}
 h1 {
   border-bottom: solid 3px #e9cd82;
   position: relative;
   font-size: 30px;
+  margin-top: 100px;
 }
 @media only screen and (min-width: 556px) {
   h1{
@@ -24,6 +29,7 @@ h1:after {
   display: block;
   margin-left: auto;
   margin-right: auto;
+
   }
   .skilltitle{
     margin: 10px;
