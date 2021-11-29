@@ -6,6 +6,7 @@ class Work1 extends React.Component {
     return(
       <>
         <p>Hello</p>
+        <p>hello</p>
         <Link to = "/">戻る</Link>
       </>
     )
