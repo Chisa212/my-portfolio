@@ -14,7 +14,7 @@ import Web1 from "../../img/works/allcrean/allcrean_port.png";
 import Web2 from"../../img/works/my portfolio/my1.png"
 import Game1 from "../../img/works/Gamepr/gamepr.jpg";
 import Cont1 from "../../img/works/prkouza/IMG_4650.jpg";
-import Cont2 from "../../img/works/smhkouza/IMG_1789.jpg";
+// import Cont2 from "../../img/works/smhkouza/IMG_1789.jpg";
 
 class Works extends React.Component {
 
@@ -149,7 +149,7 @@ class Works extends React.Component {
       },
       { id:11,
         name: "cont2",
-       srcname: Cont2,
+       srcname: Cont1,
         text: "スマホ講座",
          altname: "2021.4.24",
          longtext:"スマホについて、不安や難しさを感じる初心者向けの講座。自分の好みの設定や一歩進んだに役立つスマホの使い方、困った時の対処法などを丁寧に教えます。",
