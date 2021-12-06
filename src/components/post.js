@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import style from "../../src/styles/post.css";
+import "../../src/styles/post.css";
 import Movie1 from "../img/works/yugu/yugu_port.png";
 import Movie2 from "../img/works/pv/pv1.png";
 import Movie3 from "../img/works/maya/maya.png";
@@ -37,7 +37,7 @@ const Post = () => {
 
   const youtubeId = location.state.videoid;
 
-  if (youtubeId === "") {
+    if (youtubeId === "") {
     return (
       <>
         <div className="title"></div>
@@ -58,16 +58,17 @@ const Post = () => {
         </Link>
       </>
     );
-    
   } else {
     return (
       <>
         <div className="title"></div>
-        <YouTube
-          videoId={youtubeId}
-          className={style.iframe}
-          containerClassName={style.youtube}
-        />
+        <div className="wrap">
+          <YouTube
+            videoId={youtubeId}
+            className="iframe"
+            containerClassName="youtube"
+          />
+        </div>
         <p className="small">{location.state.date}</p>
         <p className="small">{location.state.loca}</p>
         <p className="ex">{location.state.longtext}</p>
@@ -84,5 +85,3 @@ const Post = () => {
 };
 
 export default Post;
-
-
