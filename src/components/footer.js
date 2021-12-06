@@ -3,9 +3,9 @@ import "../styles/footer.css"
 
 const Footer = () => {
   return (
-    
+
     <footer>
-      <p>© 2021 Chisa Furukawa</p>
+      <div>© 2021 Chisa Furukawa</div>
     </footer>
   )
 }

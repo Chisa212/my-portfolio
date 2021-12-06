@@ -17,12 +17,13 @@ import Maya from "../../img/skill/M.png";
 const Skill = () => {
   return (
     <>
+     
       <div className="SkillMain" id="sl">
-        <h2>Skill</h2>
+      <h2>Skill</h2>
         <div class="box" id="makeImg">
           <div className="skilltext">
             <div className="adb1">
-              <IconContext.Provider value={{ color: "#393665", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#393665", size: "4vw" }}>
                 <SiAdobeaftereffects />
               </IconContext.Provider>
             </div>
@@ -30,7 +31,7 @@ const Skill = () => {
           </div>
           <div className="skilltext">
             <div className="adb2">
-              <IconContext.Provider value={{ color: "#330000", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#330000", size: "4vw" }}>
                 <SiAdobeillustrator />
               </IconContext.Provider>
             </div>
@@ -38,7 +39,7 @@ const Skill = () => {
           </div>
           <div className="skilltext">
             <div className="adb3">
-              <IconContext.Provider value={{ color: "#001E36  ", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#001E36  ", size: "4vw" }}>
                 <SiAdobephotoshop />
               </IconContext.Provider>
             </div>
@@ -47,7 +48,7 @@ const Skill = () => {
 
           <div className="skilltext">
             <div className="adb4">
-              <IconContext.Provider value={{ color: "#470137", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#470137", size: "4vw" }}>
                 <SiAdobedreamweaver />
               </IconContext.Provider>
             </div>
@@ -55,7 +56,7 @@ const Skill = () => {
           </div>
           <div className="skilltext">
             <div className="adb5">
-              <IconContext.Provider value={{ color: "#001E36  ", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#001E36  ", size: "4vw" }}>
                 <SiUnity />
               </IconContext.Provider>
             </div>
@@ -70,10 +71,10 @@ const Skill = () => {
           </div>
         </div>
 
-        <div class="box" id="makeImg">
+        <div class="box" id="makeImg2">
           <div className="skilltext">
             <div className="pr1">
-              <IconContext.Provider value={{ color: "#393665", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#393665", size: "4vw" }}>
                 <AiFillHtml5 />
               </IconContext.Provider>
             </div>
@@ -82,7 +83,7 @@ const Skill = () => {
 
           <div className="skilltext">
             <div className="pr2">
-              <IconContext.Provider value={{ color: "#393665", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#393665", size: "4vw" }}>
                 <DiCss3 />
               </IconContext.Provider>
             </div>
@@ -91,7 +92,7 @@ const Skill = () => {
 
           <div className="skilltext">
             <div className="pr3">
-              <IconContext.Provider value={{ color: "#330000", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#330000", size: "4vw" }}>
                 <SiJavascript />
               </IconContext.Provider>
             </div>
@@ -100,7 +101,7 @@ const Skill = () => {
 
           <div className="skilltext">
             <div className="pr4">
-              <IconContext.Provider value={{ color: "#001E36  ", size: "5vw" }}>
+              <IconContext.Provider value={{ color: "#001E36  ", size: "4vw" }}>
                 <IoLogoReact />
               </IconContext.Provider>
              

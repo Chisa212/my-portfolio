@@ -2,12 +2,11 @@
   padding:0;
   margin:0;
 }
-h1 {
+/* h1 {
   border-bottom: solid 3px #e9cd82;
   position: relative;
   font-size: 30px;
-  margin-top: 100px;
-}
+} */
 @media only screen and (min-width: 556px) {
   h1{
     font-size: 20px;
@@ -15,30 +14,31 @@ h1 {
 }
 
 
-h1:after {
+/* h1:after {
   position: absolute;
   content: " ";
   display: block;
   border-bottom: solid 3px #7f320b;
   bottom: -3px;
   width: 30%;
-}
+} */
+
 .title {
   width: 70%;
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   }
+
   .skilltitle{
     margin: 10px;
   }
+
   .ex{
     width: 60%;
     text-align: center;
     color: #2a2a26;
-  
     padding: 0.5em;
     border-radius: 0.5em;
     display: block;
@@ -46,7 +46,6 @@ h1:after {
     margin-right: auto;
     font-size: 1rem;
    letter-spacing: 0.25em;
-
   }
 
   .btn-circle-stitch {
@@ -77,4 +76,17 @@ h1:after {
 
   .small{
     margin-top: 10px;
+  }
+
+  .youtube {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  .iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }

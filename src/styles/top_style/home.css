@@ -1,7 +1,9 @@
-.Homeimg1{
+.Homeimg2{
   max-width: 100%;
-  width:90vw;
-  height: auto;
+  height: 100%;
   border-radius: 30px;
   padding: 10px;
+  background-size: 100% 100%;
+
 }
+ 

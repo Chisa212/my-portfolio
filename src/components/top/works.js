@@ -23,7 +23,7 @@ class Works extends React.Component {
       date: "",
       loca: "",
       longtext: "",
-      iconimg: "",
+      videoid: "",
       skillname: "",
       link: "",
     };
@@ -39,8 +39,8 @@ class Works extends React.Component {
         altname: "2019.11.9",
         loca: "長久手文化の家、森のホール",
         longtext:
-          "ダンスとプロジェクションマッピングの公演「ユグドラシル」のオープニング映像を制作しました。 公演名であるユグドラシルを主体とした独創的な世界を繰り広げ、 暗闇にでも映えるモノクロカラーにしました。",
-        iconimg: "",
+          "ダンスとプロジェクションマッピングの公演「ユグドラシル」のオープニング映像を一部制作しました。 公演名であるユグドラシルを主体とした独創的な世界を繰り広げ、 暗闇にでも映えるモノクロカラーにしました。",
+          videoid: "EyQ1b13ZPyo",
         skillname: "Aftereffects,Illustarator,Photoshop",
       },
       {
@@ -50,8 +50,8 @@ class Works extends React.Component {
         text: "日本聴能言語福祉学院 ",
         altname: "2020.7.4",
         longtext:
-          "専門学校日本聴能言語福祉学院聴能言語学科の紹介PVを制作しました。映像素材が写真のみだったのでどのように動画にしていくか試行錯誤しながら学生生活の楽しさと学科の説明をわかりやすくしました。",
-        iconimg: "",
+          "専門学校日本聴能言語福祉学院聴能言語学科の紹介PVを制作しました。学校の雰囲気が感じられるよう、カラーやフォントなど細かな部分まで試行錯誤しながら学生生活の楽しさを表現しました。",
+          videoid: "HcsurL0NOkY",
         skillname: "Aftereffects,Illustarator,Photoshop",
       },
       {
@@ -61,8 +61,8 @@ class Works extends React.Component {
         text: "Fish Animation",
         altname: "2020.7.22",
         longtext:
-          "魚の動きやカメラを音楽に合わせ制作しました。モデリング,テクスチャ,編集といろんな技術を学ぶことができました。",
-        iconimg: "",
+          "Mayaで魚をモデリングした後、滑らかになるように骨を入れ、関節ごとに動かしました。テクスチャ迫力が出るようなカメラワークを心がけました。その動画を音楽に合わせ、色味などを調整しAftereffectsで編集しました。",
+          videoid: "",
         skillname: "MAYA,Aftereffects,Photoshop",
       },
       {
@@ -71,8 +71,8 @@ class Works extends React.Component {
         srcname: Movie4,
         text: "福岡市第三給食センター",
         altname: "2021.3.20",
-        longtext: "給食センター内で上映される施設紹介映像を制作しました。",
-        iconimg: "",
+        longtext: "給食センター内で上映される施設紹介映像を制作しました。給食で使われている野菜を育てている農家さんにインタビューをし子供達に食べることの楽しさや重要さが伝わるように制作しました。",
+        videoid: "-4J2iK6sC_Q",
         skillname: "MAYA,Aftereffects,Photoshop",
       },
       {
@@ -83,8 +83,8 @@ class Works extends React.Component {
         altname: "2021.10.22~24",
         loca: "名古屋市青少年文化センター　アートピアホール",
         longtext:
-          "演者とプロジェクションマッピングの公演の映像を制作しました。 台本を元にデザイン、映像の動きを考え、舞台の内容が観客によりわかりやすく伝わることを一番に心がけた。",
-        iconimg: "",
+          "演者とプロジェクションマッピングの公演の映像を制作しました。 台本を元にデザイン、映像の動きを考えリテイクを繰り返しました。舞台の内容が観客によりわかりやすく伝わるように制作しました。",
+          videoid: "",
         skillname: "Aftereffects,Illustarator,Photoshop",
       },
       {
@@ -94,8 +94,8 @@ class Works extends React.Component {
         text: "旅行に行こう",
         altname: "2021.11.10",
         longtext:
-          " コロナ禍で旅行に行けないことからあまり知られていない観光地を紹介した映像を制作した。画像などを使わずに全てイラストで表現した。",
-        iconimg: "",
+          " コロナ禍で旅行に行けないことからあまり知られていない観光地を紹介した映像を制作しました。illustratorで全てイラストを制作し、Aftereffectsで編集しました。",
+          videoid: "",
         skillname: "Aftereffects,Illustarator,Photoshop",
       },
     ];
@@ -107,9 +107,9 @@ class Works extends React.Component {
         text: "ALL CLEAN HYPER",
         altname: "2021.9.10",
         longtext:
-          "個人より企業が見るホームページである為、シンプルで商品の具体性がわかるデザインになっている。",
-        iconimg: "",
-        skillname: "Dreamweaver,HTML,css,Javascript,Illustarator,Photoshop",
+          "研究室で取り組んだ新事業の商品サイトを制作しました。個人より企業が見るホームページである為、シンプルで商品の具体性がわかるデザインにしました。",
+          videoid: "",
+        skillname: "Dreamweaver,HTML,CSS,Javascript,Illustarator,Photoshop",
       },
       {
         id: 8,
@@ -118,8 +118,8 @@ class Works extends React.Component {
         text: "My Portfolio",
         altname: "2021.11.30",
         longtext:
-          "自分の個性を出すデザインかつわかりやすく見やすさを心がけた。",
-        iconimg: "",
+          "自分の個性を大切にし履歴がわかりやすいようなデザインを心がけた。",
+          videoid: "",
         skillname: "HTML,css,Javascript,React,Illustarator,Photoshop",
       },
     ];
@@ -130,8 +130,8 @@ class Works extends React.Component {
         srcname: Game1,
         text: "ジグゾーパズル",
         altname: "2021.7.22",
-        longtext: "Unityで幼児向けのジグゾーパズルを制作した。",
-        iconimg: "",
+        longtext: "Unityで動物のジグゾーパズルを制作した。",
+        videoid: "",
         skillname: "Unity,Illustarator,Photoshop",
       },
     ];
@@ -143,8 +143,8 @@ class Works extends React.Component {
         text: "プログラミング教室",
         altname: "2020.12.12",
         longtext:
-          "中学校でのプログラミングの授業が必修化されました。小学校高学年、保護者の為のプログラミング講座に参加し、受講者と1対1で丁寧に教えた。",
-        iconimg: "",
+          "小学校高学年、保護者の為のプログラミング講座に参加し、受講者と1対1で丁寧に教えた。",
+          videoid: "",
         skillname: "Python",
       },
       {
@@ -154,8 +154,8 @@ class Works extends React.Component {
         text: "スマホ講座",
         altname: "2021.4.24",
         longtext:
-          "スマホについて、不安や難しさを感じる初心者向けの講座。自分の好みの設定や一歩進んだに役立つスマホの使い方、困った時の対処法などを丁寧に教えます。",
-        iconimg: "",
+          "スマホについて、不安や難しさを感じる初心者向けの講座に参加しました。自分の好みの設定や一歩進んだに役立つスマホの使い方、困った時の対処法などを丁寧に教えました。",
+          videoid: "",
         skillname: "コミュニケーション力",
       },
     ];
@@ -177,10 +177,11 @@ class Works extends React.Component {
                           state: {
                             name: value.text,
                             date: value.altname,
-                            imgId: value.id,
+                             imgId: value.id,
                             loca: value.loca,
                             longtext: value.longtext,
                             skillname: value.skillname,
+                            videoid: value.videoid
                           },
                         }}
                       >
@@ -224,6 +225,7 @@ class Works extends React.Component {
                             loca: value.loca,
                             longtext: value.longtext,
                             skillname: value.skillname,
+                            videoid: value.videoid
                           },
                         }}
                       >
@@ -266,6 +268,7 @@ class Works extends React.Component {
                             loca: value.loca,
                             longtext: value.longtext,
                             skillname: value.skillname,
+                            videoid: value.videoid
                           },
                         }}
                       >
@@ -308,6 +311,7 @@ class Works extends React.Component {
                             loca: value.loca,
                             longtext: value.longtext,
                             skillname: value.skillname,
+                            videoid: value.videoid
                           },
                         }}
                       >

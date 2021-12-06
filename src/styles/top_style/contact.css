@@ -1,0 +1,14 @@
+/* .boxcontainer{
+  display: flex;
+  justify-content: center; 
+} */
+.conbox{
+  display: inline-block;
+ 
+}
+p .context{
+
+  vertical-align:text-top ;
+  padding: 0 10px 0px 10px;
+}
+
