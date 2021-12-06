@@ -8,7 +8,7 @@ import Movie3 from "../img/works/maya/maya.png";
 import Movie4 from "../img/works/kyushoku/kyushoku.jpg";
 import Movie5 from "../img/works/tempest/tempest_port.png";
 import Movie6 from "../img/works/kojin/kojin1.png";
-
+import SEO from "./seo";
 import Web1 from "../img/works/allcrean/allcrean_port.png";
 import Web2 from "../img/works/my portfolio/my1.png";
 import Game1 from "../img/works/Gamepr/gamepr.jpg";
@@ -37,9 +37,13 @@ const Post = () => {
 
   const youtubeId = location.state.videoid;
 
-    if (youtubeId === "") {
+  if (youtubeId === "") {
     return (
       <>
+        <SEO
+          title={location.state.name}
+          description={`${location.state.name}の詳細ページです.`}
+        />
         <div className="title"></div>
         <img
           className={location.state.name}
@@ -61,6 +65,10 @@ const Post = () => {
   } else {
     return (
       <>
+        <SEO
+          title={location.state.name}
+          description={`${location.state.name}の詳細ページです.`}
+        />
         <div className="title"></div>
         <div className="wrap">
           <YouTube

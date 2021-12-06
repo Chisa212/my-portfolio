@@ -9,7 +9,7 @@ import Post from "./post.js";
 import Header from '../components/header';
 import Worksheader from "./works-header.js";
 import ScrollToTop from "./scrollToTop";
-
+import SEO from "./seo.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const Layout = () => {
@@ -27,13 +27,13 @@ const Layout = () => {
           <Route exact path="/" onEnter={ () =>{
                     window.scroll(0, 0); //ページの一番上に移動
                   } }>
+            <SEO title="Chisa" description="古川稚彩のポートフォリオサイトです."/>
             <Header/>
             <Home />
             <Main />
             <Skill />
             <Works />
             <Contact />
-          
           </Route>
         </Switch>
 
