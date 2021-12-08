@@ -20,7 +20,7 @@ const Contact = () => {
           </IconContext.Provider>
         </div>
         <div className="conbox">
-        <p className="context">chese2001@gmail.com</p>
+        <p className="context">chisaf.212@gmail.com</p>
         </div>
    
         <div className="conbox">

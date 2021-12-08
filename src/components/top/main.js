@@ -17,8 +17,10 @@ const Main = () => {
           <div className="nm">
             <p>古川稚彩</p>
             <p className="enname">CHISA FURUKAWA</p>
-            <p className="schoolname">愛知工業大学情報科学部
-            <br />情報科学科メディア情報専攻3年生</p>
+            <p className="schoolname">
+              愛知工業大学情報科学部<br />
+              情報科学科メディア情報専攻3年生
+            </p>
           </div>
           <div className="jikoshokai">
             <p>　

@@ -44,22 +44,24 @@ h2{
 
 @media only screen and (min-width: 756px) {
 
-.abt{
- 
-  display: flex;
-  justify-content: center;
-} 
-}
-.schoolname{
-  font-size: 0.8rem;
-  letter-spacing: 0.12em;
-}
-.enname{
-  font-size: 1rem;
-  font-weight: bold;
-  margin:0 auto;
+  .abt{
+  
+    display: flex;
+    justify-content: center;
+  } 
 
+  .schoolname{
+    font-size: 0.8rem;
+    letter-spacing: 0.12em;
+  }
+  .enname{
+    font-size: 1rem;
+    font-weight: bold;
+    margin:0 auto;
+
+  }
 }
+
 
 
 @media only screen and (max-width: 755px) {
@@ -67,10 +69,10 @@ h2{
     font-size: 0.7rem;
     letter-spacing: 0.12em;
   }
-  /* .enname{
+  .enname{
     font-size: 1rem;
     font-weight: bold;
     margin:0 auto;
   
-  } */
+  }
 }
