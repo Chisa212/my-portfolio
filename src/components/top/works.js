@@ -62,7 +62,7 @@ class Works extends React.Component {
         altname: "2020.7.22",
         longtext:
           "Mayaで魚をモデリングした後、滑らかになるように骨を入れ、関節ごとに動かしました。テクスチャ迫力が出るようなカメラワークを心がけました。その動画を音楽に合わせ、色味などを調整しAftereffectsで編集しました。",
-          videoid: "",
+          videoid: "EWpwgnELayI",
         skillname: "MAYA,Aftereffects,Photoshop",
       },
       {
@@ -95,7 +95,7 @@ class Works extends React.Component {
         altname: "2021.11.10",
         longtext:
           " コロナ禍で旅行に行けないことからあまり知られていない観光地を紹介した映像を制作しました。illustratorで全てイラストを制作し、Aftereffectsで編集しました。",
-          videoid: "",
+          videoid: "MTCyGAsY7X4",
         skillname: "Aftereffects,Illustarator,Photoshop",
       },
     ];
@@ -131,7 +131,7 @@ class Works extends React.Component {
         text: "ジグゾーパズル",
         altname: "2021.7.22",
         longtext: "Unityで動物のジグゾーパズルを制作した。",
-        videoid: "",
+        videoid: "FdiaxACtkyY",
         skillname: "Unity,Illustarator,Photoshop",
       },
     ];

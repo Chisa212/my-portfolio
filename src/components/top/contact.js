@@ -12,9 +12,9 @@ import { RiGithubLine } from "react-icons/ri";
 const Contact = () => {
   return (
     <>
+      <div className="contactmain" id="ct">
       <h2>Contact</h2>
-      
-        <div className="conbox">
+      <div className="conbox">
           <IconContext.Provider value={{ color: "#393665", size: "3vw" }}>
             <FiMail />
           </IconContext.Provider>
@@ -31,26 +31,12 @@ const Contact = () => {
       <div className="conbox">
        <p className="context">Chisa212</p>
       </div>
+      </div>
+      
+      
+      
 
-      {/* <form>
-        <label>
-          Name:
-          <input type="text" name="Name" />
-        </label>
-        <label>
-        Email:
-          <input type="text" name="Email" />
-        </label>
-        <label>
-        Subject:
-          <input type="text" name="Subject" />
-        </label>
-        <label>
-        Messages:
-          <input type="text area" name="Messages" />
-        </label>
-        <input type="submit" value="送信" />
-      </form> */}
+      
     </>
   );
 };
