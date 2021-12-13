@@ -1,12 +1,12 @@
 import React from "react";
 import "../../styles/top_style/main.css";
-import { ReactComponent as Mainbackgraund } from "../../img/Home/SVG/home2.svg";
+// import { ReactComponent as Mainbackgraund } from "../../img/Home/SVG/home2.svg";
 
 const Main = () => {
   return (
     <>
  
-      {/* <div className="maingraund"> */}
+      <div className="maingraund">
         <div className="MainAll" id="Mn">
           <h2>About</h2>
           <div className="abt">
@@ -32,7 +32,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      {/* </div> */}
+      </div>
     </>
   );
 };
